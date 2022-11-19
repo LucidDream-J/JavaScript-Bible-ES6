@@ -17,6 +17,7 @@ function ElectricDevice(props) {
   this.energyEfficiencyClass = props.energyEfficiencyClass;
 }
 
+
 ElectricDevice.prototype = Object.create(Product.prototype);
 
 ElectricDevice.prototype.constructor = ElectricDevice;
